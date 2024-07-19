@@ -1,0 +1,109 @@
+html {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  /* Safari */
+  -ms-user-select: none;
+  /* IE 10 and IE 11 */
+  user-select: none;
+  /* Standard syntax */
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  color: rgb(203, 132, 203);
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.ui {
+  background-color: rgb(30, 94, 137);
+  width: 100%;
+  padding: 0;
+  margin: 4px 0 0 4px;
+}
+
+button {
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 10px;
+  border: none;
+  margin: 2px;
+  font-size: 1.8em;
+}
+
+.buttons {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.button-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+button.equalbutton {
+  color: white;
+  background-color: #620874e0;
+  border: 1px solid white;
+}
+
+button.clear,
+button.delete {
+  color: rgb(62, 204, 62);
+  border: 1px solid white;
+  background-color: #620874e0;
+}
+
+button.operatorbuttons {
+  
+  color : black;
+  background-color: white;
+  border: 1px solid white;
+}
+
+input.inputdisplay {
+
+  text-decoration: none;
+  width: 13%;
+  display: block;
+  height: 70px;
+  font-size: 1.3em;
+  border-radius: 10px;
+  border: 4px solid rgb(133, 1, 133);
+  background-color: whitesmoke;
+}
+
+.inputview {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.whole{
+  border:2px soli rgb(25, 106, 109);
+  color: bisque;
+   background-color:rgb(31, 141, 192)}
+.a{
+      font-style: italic;
+      color: rgba(14, 0, 91, 0.404);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   transition: all;
+   transition-duration: 4s;
+  transition-timing-function: ease-in;
+ transition-delay: 0s;
+   }
+.a:hover{
+  font-size: x-large;
+ background-color: rgb(0, 13, 255);
+   }

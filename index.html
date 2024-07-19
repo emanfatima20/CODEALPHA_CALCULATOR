@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Simple Calculator</title>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="whole">
+  <h1 class="heading a">Calculator</h1>
+  
+  <div class="ui">
+    <div class="inputview a">
+      <input class="inputdisplay " type="text" id="num2" placeholder="0">
+      </input>
+    </div>
+    <div class="buttons ">
+
+      <div class="button-row ">
+        <button class="clear a" onclick="clearText()">CL
+        </button>
+        <button onclick="addNum('.')">.
+        </button>
+        <button class="delete a" onclick="deleteText()">X
+        </button>
+      </div>
+
+      <div class="button-row ">
+        <button onclick="addNum('7')">7
+        </button>
+        <button onclick="addNum('8')">8
+        </button>
+        <button onclick="addNum('9')">9
+        </button>
+      </div>
+
+      <div class="button-row ">
+        <button onclick="addNum('4')">4
+        </button>
+        <button onclick="addNum('5')">5
+        </button>
+        <button onclick="addNum('6')">6
+        </button>
+      </div>
+
+      <div class="button-row ">
+        <button onclick="addNum('1')">1
+        </button>
+        <button onclick="addNum('2')">2
+        </button>
+        <button onclick="addNum('3')">3
+        </button>
+      </div>
+
+      <div class="button-row ">
+        <button onclick="addNum('/')" class="operatorbuttons">/
+        </button>
+        <button onclick="addNum('0')">0
+        </button>
+        <button onclick="addNum('*')" class="operatorbuttons">*
+        </button>
+      </div>
+
+      <div class="button-row ">
+        <button onclick="addNum('-')" class="operatorbuttons">-
+        </button>
+        <button onclick="addNum('+')" class="operatorbuttons">+
+        </button>
+        <button onclick="getResult()" class="equalbutton">=
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+  <script src="main.js"></script>
+</body>
+
+</html>
